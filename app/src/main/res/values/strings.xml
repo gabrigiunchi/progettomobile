@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">1Password</string>
+    <string name="facebook_app_id">119419251809240</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="type">
+        <item>VISA</item>
+        <item>MasterCard</item>
+        <item>American Express</item>
+        <item>Diners Club</item>
+        <item>JBC</item>
+        <item>Discover Card</item>
+        <item>UnionPay</item>
+    </string-array>
+    <string-array name="conto_type">
+        <item>Conto corrente</item>
+        <item>Libretto di risparmio</item>
+        <item>Fido bancario</item>
+        <item>Bancomat</item>
+        <item>Mercato monetario</item>
+        <item>Altro</item>
+    </string-array>
+    <string-array name="hours">
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+        <item>1 ora</item>
+    </string-array>
+
+    <string name="title_activity_prova">ProvaActivity</string>
+
+    <string name="dropbox_app_key">qwnnf0tfodlz3nw</string>
+    <string name="dropbox_app_secret">qsqj5rc8xe3mh4d</string>
+
+    /**************************** Nomi dei file php che risiedono nel server *****************************************/
+    <string name="login_url">http://gabrielegiunchi.it/progettomobile_server/login.php</string>
+    <string name="get_element_metadata_url">http://gabrielegiunchi.it/progettomobile_server/getElementMetadata.php</string>
+    <string name="sync_url">http://gabrielegiunchi.it/progettomobile_server/sync.php</string>
+    <string name="add_user_user">http://gabrielegiunchi.it/progettomobile_server/add_user.php</string>
+
+
+	/******************** Chiavi per elementi nelle SharedPreferences **********************************************/
+
+    <string name="preferences_name">my_preferences</string>
+    <string name="principal_password_preferences_entry">principal_local_password</string>
+    <string name="synchronization_method_preferences_entry">sync_method</string>
+    <string name="encryption_key__preferences_entry">encryption_key</string>
+    <string name="synchronizationWifiOnly">sync_wifi_only</string>
+    <string name="synchronizationInBackground">sync_in_background</string>
+
+    // Dropbox
+    <string name="dropbox_access_token_preferences_entry">dropbox_access_token</string>
+    <string name="dropbox_filepath_preferences_entry">dropbox_filepath</string>
+
+    // Account
+	<string name="account_user_preferences_entry">account_username</string>
+    <string name="account_password_preferences_entry">account_password</string>
+    <string name="account_first_name_preferences_entry">account_first_name</string>
+    <string name="account_last_name_preferences_entry">account_last_name</string>
+    <string name="account_picture_preferences_entry">account_picture</string>
+    
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@drawable/navbar_background"
+        android:checkedButton="@+id/btnCategories"
+        android:id="@+id/tabBarMenu">
+        <RadioButton
+            android:id="@+id/btnCategories"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_safeselector"
+            android:text="Categorie"
+            android:textColor="#ffffff"
+            android:checked="false" />
+        <RadioButton
+            android:id="@+id/btnPref"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_prefselector"
+            android:text="Preferiti"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff" />
+        <RadioButton
+            android:id="@+id/btnSettings"
+            style="@style/navbar_button"
+            android:drawableTop="@drawable/navbar_settingselector"
+            android:text="Impostazioni"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

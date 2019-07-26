@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.utente.progettomobile.MainActivity"
+    android:background="#d2d6dc">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/tryPassword"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Password"
+        android:paddingLeft="15dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:src="@drawable/login"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/tryPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_img"
+        android:src="@drawable/one_password_home"
+        android:layout_above="@+id/tryPassword"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_logo"
+        android:src="@drawable/one_password_logo"
+        android:layout_above="@+id/tryPassword"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+

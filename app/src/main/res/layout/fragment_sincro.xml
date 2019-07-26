@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:background="#ece7e7">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountRadio"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCOUNT "
+            android:id="@+id/accountButton"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DROPBOX"
+            android:id="@+id/dropboxButton"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DISABILITA SINCRONIZZAZIONE"
+            android:id="@+id/disabled"
+            android:checked="false" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SINCRONIZZAZIONE DATI"
+        android:id="@+id/textView10"
+        android:textColor="#0421ff"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizzazione in background"
+        android:id="@+id/backgroud_sync_switch"
+        android:checked="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/accountRadio" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solo su wi-fi"
+        android:id="@+id/wifi_only_sincronization_switch"
+        android:layout_below="@+id/backgroud_sync_switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:paddingRight="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambia file su Dropbox"
+        android:id="@+id/changeDropboxFileButton"
+        android:layout_below="@+id/wifi_only_sincronization_switch"
+        android:layout_marginTop="40dp"
+        android:visibility="visible"
+        style="@style/AlertDialog.AppCompat.Light" />
+</RelativeLayout>
